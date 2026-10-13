@@ -1,0 +1,7 @@
+Module,Input_Size,Operation_Count_or_Growth_Indicator,Time_Complexity,Estimated_Time_Seconds,Result_Type
+M1 - Duplicate Detector,1000000,499999500000,Theta(n^2),4999.995,Operation-count estimate
+M2 - API Rate Limiter,1000000,1048575,Theta(n),0.01048575,Operation-count estimate
+M3 - Binary Search,1000000,20,Theta(log n),2e-07,Operation-count estimate
+M4 - Current Recommendation,1000000,1999999000000,Theta(n^2),19999.99,Recurrence/model-based estimate
+M4 - Redesigned Recommendation,1000000,20931568.569324173,Theta(n log n),0.20931568569324174,Recurrence/model-based estimate
+M5 - Sales Analytics,1000000,397267425.6336713,Theta(n(log n)^2),3.972674256336713,Asymptotic growth indicator; not an exact count
